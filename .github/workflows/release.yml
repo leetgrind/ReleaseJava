@@ -34,6 +34,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref_name }}
-          run: |
-            gh release create "$tag" ./build/libs/*.jar -title "$tag" --notes "Release $tag"
+        run: |
+          gh release create "$tag" ./build/libs/*.jar -title "$tag" --notes "Release $tag"
 
