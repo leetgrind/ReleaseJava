@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Hello, World!");
         System.out.println("New feature");
         System.out.println("New feature2");
-        System.out.println("Rebase number 1 branch");
+        System.out.println("Rebase branch 2");
     }
 }
