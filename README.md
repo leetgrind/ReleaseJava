@@ -7,3 +7,5 @@ create a tag
 Push the tag to git
 
 `git push origin v1.0.4`
+
+Rebase branch number 1
