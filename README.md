@@ -4,6 +4,6 @@ create a tag
 
 `git tag v1.0.4`
 
-Push the tag
+Push the tag to git
 
 `git push origin v1.0.4`
